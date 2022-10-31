@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 50pt;
+}
+
+header p {
+    font-size: 20pt;
+}
+
+section {
+    height: 400px;
+    width: 200px;
+    border: 2px solid salmon;
+    margin: 10px;
+    overflow: scroll;
+}
+
+.long {
+    height: fit-content;
+    width: 40px;
+}
+
+#static {
+    position: static;
+}
+
+#relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#absolute {
+    position: absolute;
+    top: 300px;
+    right: 30px;
+}
+
+#fixed {
+    position: fixed;
+    top: 300px;
+    left: 300px;
+}
+
+#sticky {
+    position: sticky;
+    top: 30px;
+    left: 50px;
+}
